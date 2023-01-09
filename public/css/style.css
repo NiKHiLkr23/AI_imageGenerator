@@ -9,7 +9,7 @@
 }
 
 :root {
-  --primary-color: #f9b64d;
+  --primary-color: #346f48;
 }
 
 body {
@@ -114,4 +114,39 @@ img {
   font-size: 1.6rem;
   text-align: center;
   margin-top: 1rem;
+}
+
+textarea {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+@media screen and (max-width: 600px) {
+
+
+.navbar a {
+  font-size: .8rem;
+}
+.navbar h2{
+  font-size: large;
+}
+
+
+form select {
+  width: 300px;
+  max-width: 300px;
+}
+
+.text__area{
+  max-width: 350px;
+}
 }
